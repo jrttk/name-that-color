@@ -69,7 +69,7 @@ export default {
         hex = await hex.replace("#", "");
       }
       if (hex.length === 3 || hex.length === 6) {
-        let url = await `http://www.thecolorapi.com/id?hex=${hex}`;
+        let url = await `https://www.thecolorapi.com/id?hex=${hex}`;
         fetch(url)
           .then(data => {
             return data.json();
