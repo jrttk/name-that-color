@@ -13,6 +13,7 @@ footer {
   color: #AAA;
   text-align: center;
   box-sizing: border-box;
+  line-height: 1.5;
 
   @media screen and (max-width: 570px) {
     font-size: 11px;
