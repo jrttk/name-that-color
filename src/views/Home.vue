@@ -148,7 +148,6 @@ export default {
       > button {
         width: 100%;
         display: block;
-        mix-blend-mode: difference;
       }
     }
     
@@ -161,6 +160,8 @@ export default {
     height: auto;
     padding-top: 30px;
     display: block;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
