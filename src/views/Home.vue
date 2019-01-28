@@ -107,6 +107,9 @@ export default {
         content: "A simple web application which tell you the color name"
       },
       { property: "og:title", content: "Name That Color" }
+    ],
+    link: [
+      { rel: 'icon', href: require('../../public/favicon.png'), sizes: '32x132', type: 'image/png' }
     ]
   }
 };
