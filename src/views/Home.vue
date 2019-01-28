@@ -167,7 +167,7 @@ export default {
 
 @media screen and (max-width: 570px) {
   .palette-input {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 
