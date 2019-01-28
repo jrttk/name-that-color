@@ -125,7 +125,7 @@ export default {
   text-align: left;
 
   > div {
-    padding: 0 20px;
+    padding: 0 30px;
 
     &:first-of-type {
       > h1 {
@@ -150,6 +150,10 @@ export default {
         display: block;
         mix-blend-mode: difference;
       }
+    }
+    
+    @media screen and (max-width: 570px) {
+      padding: 0;
     }
   }
 
